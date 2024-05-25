@@ -20,7 +20,7 @@ function checkMail (){
     let mailValue=mail.value;
     let para=mailPara;
     if(mailValue.length>3 && mailValue.indexOf('@')>=0 && mailValue.indexOf('.')>=0){
-        para.style.color='white';
+        para.innerText="";
         check1=true;
     }
     else{
@@ -35,7 +35,7 @@ function checkPassword (){
    
 
     if(pwValue.length>7){
-        pswdPara.style.color='white';
+        pswdPara.innerText="";
         check2=true;
     }
     else{
