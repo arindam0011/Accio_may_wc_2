@@ -62,7 +62,7 @@ function showOutput(event){
         event.preventDefault();
         if(confirm("Press 'OK' to confirm Email & Password!"))
         {
-            alert("You are successful signup!");
+            alert("You are successfully signup!");
         }
         
     }
