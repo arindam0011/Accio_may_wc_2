@@ -1,0 +1,47 @@
+#form *{
+    display: block;
+    margin: 10px;
+}
+#form label{
+    font-weight:600;
+}
+#form input{
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(250,98,221);
+    background: linear-gradient(-45deg, rgba(250,98,221,1) 0%, rgba(220,145,223,1) 16%, rgba(0,212,255,1) 34%, rgba(180,237,117,1) 50%, rgba(95,254,100,1) 60%, rgba(249,241,85,1) 71%, rgba(249,247,124,1) 82%, rgba(249,124,135,1) 93%);
+
+}
+#form_div{
+    border: 2px solid black;
+    padding:30px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(126, 223, 243), rgb(232, 232, 95));
+}
+#btn{
+ border: 1px solid black;
+ width: 100px;
+ height: 30px;
+ text-align: center;
+ margin-top: 20px;
+ border-radius: 5px;
+ font-weight: 600;
+ align-items: center;
+ background-color: rgb(147, 147, 231);
+ color: rgb(21, 12, 111);
+}
+
+#em-p,#pw-p{
+    color:red;
+}
+#btn_position{
+    display: flex;
+    justify-content: center;
+}
